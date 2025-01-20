@@ -1,31 +1,24 @@
-# Passo a passo para execução do projeto
+# Requisitos
 
-Siga as instruções abaixo para conseguir configurar seu ambiente PHP e executar o projeto na sua máquina.
+- Servidor Local Apache e MySQL (Sugestão: [XAMPP](https://www.apachefriends.org/pt_br/download.html))
 
-# Pré-requisitos
+# Instalação e Execução
 
-- Servidor Local Apache e MySQL (Sugestão: XAMPP)
+## 1. Clone o repositório
+Primeiro, clone o repositório do projeto (ou baixe o repositório pelo GitHub) dentro da pasta htdocs:
 
-# Passos para executar o projeto
-
-## 1. Instale o XAMPP
-
-### - XAMPP é um pacote com os principais servidores de código aberto, incluindo FTP, banco de dados MySQL e Apache com suporte para a linguagem PHP.
-
-## 2. Clone o repositório
-
-## - Primeiro, clone o repositório do projeto (ou baixe o repositório pelo GitHub) dentro da pasta htdocs
     git clone https://github.com/jesse-barbosa/swiftNote.git
 
-## 3. Importe o banco de dados
+## 2. Importe o banco de dados
 
-### - Primeiro, ligue os servidor Apache e MySQL no XAMPP
-### - Acesse o painel PhpMyAdmin: Digite "localhost/" no endereço de pesquisa do seu navegador
-### - Crie um novo banco de dados com o nome "dbswiftnote"
-### - Clique na opção de importar, e importe o arquivo SQL localizado na pasta "banco" do projeto
+- 2.1 Primeiro, ligue os servidor Apache e MySQL no XAMPP
+- 2.2 Acesse o painel PhpMyAdmin: Digite "localhost/" no endereço de pesquisa do seu navegador
+- 2.3 Crie um novo banco de dados com o nome "dbswiftnote"
+- 2.4 Clique na opção de importar
+- 2.5 Importe o arquivo SQL localizado na pasta "banco" do projeto
 
-## 4. Rode o projeto
+## 3. Rode o projeto
 
-### - Acesse "localhost/swiftNote/" no endereço de pesquisa do seu navegador, e pronto!
+Acesse "localhost/swiftNote/" no endereço de pesquisa do seu navegador
 
-Se você encontrar algum problema ou tiver alguma dúvida, por favor, verifique a documentação do PhpMyAdmin ou entre em contato comigo por E-mail.
+Se encontrar algum problema ou tiver dúvidas, consulte a [documentação oficial do PHPMyAdmin](https://www.phpmyadmin.net/).
